@@ -618,7 +618,7 @@ void sh4b::Loop()
 
 
   TCanvas* eta = new TCanvas("eta","Leading b jet eta",600,500);
-  h_jet1_ETA->SetMaximum(700);
+  h_jet1_ETA->SetMaximum(350);
   h_jet1_ETA->SetXTitle("Leading b-jet eta");
   h_jet1_ETA->SetYTitle("Events");
   h_jet1_ETA->Draw();
